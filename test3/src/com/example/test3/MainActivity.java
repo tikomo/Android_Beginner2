@@ -1,7 +1,13 @@
+/*
+ * ”z—ñ
+ * 
+ * 
+ */
 package com.example.test3;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
@@ -10,6 +16,19 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        String[] ar = new String[10];
+        
+        for (int i = 0; i < ar.length; i++) {
+        	
+        	ar[i] = String.valueOf(i * 100);
+        }
+        
+        for (int i = 0; i < ar.length; i++) {
+        	
+        	Log.d("MyApp", ar[i]);
+        }
+        
     }
 
 
