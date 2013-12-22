@@ -1,2 +1,2 @@
-TextView�̎g����
-���O�̏o��
+﻿TextViewの使い方
+ログの出力
