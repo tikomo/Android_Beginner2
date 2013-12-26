@@ -1,6 +1,6 @@
-/*
- * ƒeƒLƒXƒg‚Ì•\¦
- * ’¼Úw’è‚·‚é•û–@‚Æstrings.xml‚©‚ç‚Á‚Ä‚­‚é•û–@
+ï»¿/*
+ * ãƒ†ã‚­ã‚¹ãƒˆã®è¡¨ç¤º
+ * ç›´æ¥æŒ‡å®šã™ã‚‹æ–¹æ³•ã¨strings.xmlã‹ã‚‰æŒã£ã¦ãã‚‹æ–¹æ³•
  * 
  */
 package com.example.test1;
@@ -18,11 +18,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        // ’¼Ú‹Lq
+        // ç›´æ¥è¨˜è¿°
         TextView textView = (TextView)findViewById(R.id.textView1);
         textView.setText("Hello World2");
         
-        // •¶š—ñƒŠƒ\[ƒX‚©‚çæ“¾‚·‚éê‡
+        // æ–‡å­—åˆ—ãƒªã‚½ãƒ¼ã‚¹ã‹ã‚‰å–å¾—ã™ã‚‹å ´åˆ
         String str = getString(R.string.hello_world_a);  
         String str2 = (String) getText(R.string.hello_world_a); 
         textView.setText(str);

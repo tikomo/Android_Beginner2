@@ -1,6 +1,6 @@
-/*
- * ƒ{ƒ^ƒ“‚ÌƒNƒŠƒbƒNƒCƒxƒ“ƒg
- * ƒ‰ƒ“ƒ_ƒ€
+ï»¿/*
+ * ãƒœã‚¿ãƒ³ã®ã‚¯ãƒªãƒƒã‚¯ã‚¤ãƒ™ãƒ³ãƒˆ
+ * ãƒ©ãƒ³ãƒ€ãƒ 
  * 
  */
 package com.example.test2;
@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
     }
 
     /*
-     * ƒ{ƒ^ƒ“‚ğƒNƒŠƒbƒN‚·‚é‚½‚Ñ‚É0,1,2‚Ì‚Ç‚ê‚©‚Ì”’l‚ğ•\¦‚µ‚Ü‚·
+     * ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ãŸã³ã«0,1,2ã®ã©ã‚Œã‹ã®æ•°å€¤ã‚’è¡¨ç¤ºã—ã¾ã™
      * 
      * 
      */
@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
     	TextView textView1 = (TextView)findViewById(R.id.textView1);
     	
     	Random rnd = new Random();
-        int a = rnd.nextInt(3); // 0,1,2‚Ì’l‚ğ‚Æ‚è‚Ü‚·
+        int a = rnd.nextInt(3); // 0,1,2ã®å€¤ã‚’ã¨ã‚Šã¾ã™
         
         textView1.setText(String.valueOf(a));
     	
