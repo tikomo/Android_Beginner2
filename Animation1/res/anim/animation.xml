@@ -1,0 +1,6 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+    <item android:drawable="@drawable/beacon_search1" android:duration="1000" />
+    <item android:drawable="@drawable/beacon_search2" android:duration="1000" />
+    <item android:drawable="@drawable/beacon_search3" android:duration="1000" />
+</animation-list>
